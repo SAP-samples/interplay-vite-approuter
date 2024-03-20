@@ -1,0 +1,16 @@
+{
+  "name": "interplay-vite-approuter",
+  "version": "1.0.0",
+  "description": "Demonstrate how approuter can work together with Vite",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -r --parallel start:router start:ui",
+    "start:router": "npm --prefix ./router run start:dev",
+    "start:ui": "npm --prefix ./ui run dev",
+    "setup": "npm install && npm --prefix ./ui install && npm --prefix ./router install"
+  },
+  "author": "Julian Schambeck",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

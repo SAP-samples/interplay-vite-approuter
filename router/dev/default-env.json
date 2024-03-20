@@ -1,0 +1,13 @@
+{
+  "destinations": [
+    {
+      "name": "api",
+      "url": "http://localhost:4004",
+      "forwardAuthToken": true
+    },
+    {
+      "name": "vite-dev-server",
+      "url": "http://localhost:5173"
+    }
+  ]
+}
