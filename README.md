@@ -1,4 +1,6 @@
 # Interplay between Vite and SAP Approuter
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/interplay-vite-approuter)](https://api.reuse.software/info/github.com/SAP-samples/interplay-vite-approuter)
+
 This is a setup for a local development environment that uses the [SAP Approuter](https://www.npmjs.com/package/@sap/approuter) _in combination_ with the frontend-tooling [Vite](https://vitejs.dev).
 
 The Approuter will handle the authorization and authentication details, while one can still leverage the speed and Hot Module Replacement (HMR) of Vite's development server (dev server) to develop the User Interface (UI) quickly e.g., with the [UI5 Web Components in React](https://sap.github.io/ui5-webcomponents-react/?path=/docs/getting-started--docs).
